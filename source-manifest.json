@@ -1,0 +1,879 @@
+{
+  "schema": "VRSIM_PUBLIC_ARCHIVE_SOURCE_MANIFEST_V1",
+  "preparedDate": "2026-10-12",
+  "archiveByteExact": true,
+  "productSourceEdited": false,
+  "compilerExecuted": false,
+  "SDKInvoked": false,
+  "hardwareExecuted": false,
+  "GitHubInvoked": false,
+  "portableBuildValidated": false,
+  "currentManagedArtifact": {
+    "name": "UX.VRSIM.Sim.Plugin.SharedGPU.dll",
+    "sha256": "C2CE02D2DD21C1BAF2559A7958953DFAE00B751553CF789B50794FA294F79D67",
+    "bytes": 512000
+  },
+  "currentNativeArtifact": {
+    "name": "VRSIM.Native.SharedWire.QA.dll",
+    "sha256": "1E60BBB092BC8A38072428B814E4C5C7A89132352FE26DDB426539831535418D",
+    "bytes": 519680
+  },
+  "installedPackageVersion": "0.1.4.0",
+  "files": [
+    {
+      "path": "src/managed/CameraSweepController.cs",
+      "sha256": "4FD0729E55AD0B19952C7E985EA8A26D17517ECDBE0B2AC817AB2DC37731EA5E",
+      "bytes": 24690,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/pair-stage/nc02pairstage.h",
+      "sha256": "9587ED047B57E4A42A23EA6B13E1E62F84B883F01009CC909945B1001715AF85",
+      "bytes": 11722,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/pair-stage/nc02pairstage.cpp",
+      "sha256": "C26E8F4C41010EBAE5B9C0E35C526ABF47DFB4E6B8D96069C7A80E71AF2AF24D",
+      "bytes": 42139,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/openxr-probe/vendor/openxr/openxr.h",
+      "sha256": "17E8E334A7AD0C6933B31143330D4771010E393DF5D5D9D08566EB15BB171A15",
+      "bytes": 694129,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/openxr-probe/vendor/openxr/openxr_platform.h",
+      "sha256": "F17E6D752E0065EDE9F2A4C8932155ACFF96462306A2468A67A6AD77484641D8",
+      "bytes": 35203,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/openxr-probe/vendor/openxr/openxr_platform_defines.h",
+      "sha256": "A458BA5777415F2DE518FDCDCC87FCF8651BA0468C9F69A101378672AAD80946",
+      "bytes": 3912,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/openxr-probe/vendor/mit.txt",
+      "sha256": "8F25018489D6FE0DEC34A352314C38DC146247B7DE65735790F4398A92AFA84B",
+      "bytes": 1108,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/Xr/XRDeviceModel.cs",
+      "sha256": "701502D09DCD35B1B0F7F3EF4C91F0DFC89B70D111A33D06B49122E41115B47A",
+      "bytes": 2660,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/Xr/XRDeviceManager.cs",
+      "sha256": "DEAE93F9166E2B76C40BD893E802ADD7C9E89BB8BB75AA0D4D0844CA1772005E",
+      "bytes": 2310,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/Xr/OpenXRRuntimeDiscovery.cs",
+      "sha256": "44B306449D516D8770B36630583B60468EEC7EFF88687C7E43226907FB89C14E",
+      "bytes": 5486,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/pair-stage/nc02pairstage.vcxproj",
+      "sha256": "9515E7E694D62AC7DAEF742C0F00FA642C1C613FC4C534FDBF66B431EAAEA276",
+      "bytes": 2692,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/Xr/KnownDeviceRegistry.cs",
+      "sha256": "E3E112F19E985C5544A7A7A0CC0BCB50BAE9AD53A5F9315CC29559AF2581E04A",
+      "bytes": 5080,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/Xr/DeviceIdentityResolver.cs",
+      "sha256": "E8476368607C26D246311065CF78CE48E07D9FBFCD61FB6250A9C0CA074711AA",
+      "bytes": 4460,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/VRSIMPlugin.SharedGPU.cs",
+      "sha256": "DB322FF6B8919EDC6F64A41167BC2F05AF1B43DD8594EC55E19173F9300077B5",
+      "bytes": 20376,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/VRSIMPlugin.cs",
+      "sha256": "C50D88F6DD0F118ABB2C8FC386698E7DA364DEA6E357581E6D9D219E4D10E7B8",
+      "bytes": 150441,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/VRMonitorWindow.cs",
+      "sha256": "4DC09F26DD210CE93FF51640F5B73ED3731A53DA190834A6B6D955D1C6B788D3",
+      "bytes": 56755,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/VCFrameProducer.cs",
+      "sha256": "02BE19C9CDA4CE7E2218C160110ECE0D617F9438DC29130C7A6B046386414C74",
+      "bytes": 426964,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/TrackingSelfTest.cs",
+      "sha256": "031F65A5B9CC55ACC5256AEFA0199EEA22175CBA17790174E4B48480C1693AEB",
+      "bytes": 24581,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/StereoResampleWorker.cs",
+      "sha256": "E0C4B43AD49AD2E48AA4C53B1ECE5B595D5508E65072D7372EDCDAA72DDC4A6C",
+      "bytes": 12216,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/NativeCaptureOwner.cs",
+      "sha256": "7EF5A96534609EA4B603CDB16696B6C68E91AD1732C3148083D6B95362EA20F7",
+      "bytes": 47636,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/KernelUiPulse.cs",
+      "sha256": "017BF1250369D00654685010F1D9F626CAE6953D70B38D087898E1750A19866A",
+      "bytes": 31010,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/Xr/IXRProviders.cs",
+      "sha256": "836FA9A842B41F8EB440CE1A8A9F79FF84FD3A4A864D2EEFAD029AA6AA4A9510",
+      "bytes": 1218,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/HostedStagingOwner.NC02XrQA.cs",
+      "sha256": "41F299947EB610B4B6327D7E964A79C6DB5B07D3697D27892E99886FF9F7CF51",
+      "bytes": 84677,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/source-readback/d3d9surfacereadback.cpp",
+      "sha256": "C045628A9DA368DA2800632EDAEDF652171794901CC54EA99BFEBE83F81BEE9D",
+      "bytes": 12672,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/gpuprojection.hlsl",
+      "sha256": "422AF59EA29C1DC6438312B9BBBFA60709376722A5DC51FED965362864FA472B",
+      "bytes": 2839,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/references/reference/COPYING",
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643",
+      "bytes": 18092,
+      "set": "third-party-obs-license",
+      "kind": "license",
+      "originReceiptSha256": "",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/shared-helpers/reference/COPYING",
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643",
+      "bytes": 18092,
+      "set": "third-party-obs-license",
+      "kind": "license",
+      "originReceiptSha256": "",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/package_vrsim.py",
+      "sha256": "DC168238AB7935FB1A519913651821C8EB93BF761F8A85F1D304B00B048C7C00",
+      "bytes": 28530,
+      "set": "archived-build-packaging",
+      "kind": "build-script",
+      "originReceiptSha256": "",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/build.ps1",
+      "sha256": "58711094743445D842BF2717BA0C8AC36F426FA365120BE36861305646381C52",
+      "bytes": 41121,
+      "set": "archived-build-packaging",
+      "kind": "build-script",
+      "originReceiptSha256": "",
+      "byteExactCopy": true
+    },
+    {
+      "path": "build/archive/RootCompileNativeD11OutputTiming.R1.ps1",
+      "sha256": "5B95860C574CFDA970393B3C29AB1DAB2E5DA3ABD401BBE6F1942926225B101C",
+      "bytes": 21118,
+      "set": "archived-build-packaging",
+      "kind": "build-script",
+      "originReceiptSha256": "",
+      "byteExactCopy": true
+    },
+    {
+      "path": "build/archive/RootCompileOwnerPhaseObservation.R1.ps1",
+      "sha256": "96A32BAD30D3B5F9EC01164BBF394581B920E74C547307A95B232AF36DB715E7",
+      "bytes": 8720,
+      "set": "archived-build-packaging",
+      "kind": "build-script",
+      "originReceiptSha256": "",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/generated/GpuProjectionPS.inc",
+      "sha256": "30CF51DA016EA3EFED709CF23B63B5AED37B104814258A8129D918809C6B0958",
+      "bytes": 10356,
+      "set": "installed-0.1.4.0-generated-shader",
+      "kind": "generated-source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/generated/GpuProjectionVS.inc",
+      "sha256": "062D3B1D17D64BEB155C3755752265CC37659533569C20017E7B8CCFADB31BB8",
+      "bytes": 5016,
+      "set": "installed-0.1.4.0-generated-shader",
+      "kind": "generated-source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/vrsimnative.vcxproj",
+      "sha256": "ADCC5D39E509DAF425CB67B35A024BBCB1442E9747F7611DE95A018E7259423D",
+      "bytes": 5215,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/source-readback/nc01readback.vcxproj",
+      "sha256": "BBBB69549E6620A4AFFC904798CE3A13A2D17269FF53FE3634FACE47AE1494B6",
+      "bytes": 2652,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/vrsimnative.h",
+      "sha256": "EF953EACE920C93724B555F869E1A328C02C762CDF0879B7500D517B78189893",
+      "bytes": 6239,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/sharedstereowire.h",
+      "sha256": "087DF363D22AF05EBC8BD799B73C9C691FF928F0670651A3C28EB43CBCB51422",
+      "bytes": 13856,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/sharedstereobridge.h",
+      "sha256": "2DD70507F3A9E9E7B1C2873F804B735356F23F27D555928794BDA801FD9E5ECC",
+      "bytes": 14928,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/sharedstereobridge.cpp",
+      "sha256": "3A67C1CAF21886B6205AEDB4B8A74FDAA362EAF9C2E92FBFE254DFBAACE03921",
+      "bytes": 59672,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/shared-helpers/obsd3d9sharedcolorqa.cpp",
+      "sha256": "F0E50C5AE47746E9C6EAA1C749A2EBC72B1AD22A77B94306E1177E290FE914A1",
+      "bytes": 39279,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/shared-helpers/obsd3d9layoutqa.cpp",
+      "sha256": "ECF6DFDB14CE9DF67002A21069B97476150E5E68FCCA1D68B174F331A54BE155",
+      "bytes": 38967,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/shared-helpers/obsd3d9actualsourceqa.h",
+      "sha256": "42DDD9DC439B8D5C164F1FF3BD02D7186BCF3C08C1F2E4377FF0B42454BA3BD8",
+      "bytes": 2076,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/shared-helpers/obsd3d9actualsourceqa.cpp",
+      "sha256": "D5D80FB53A0130CC8C3936AB76512F25E9A69B820D7B54DF0810505EB45BEB97",
+      "bytes": 54040,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/gpuprojectionpass.h",
+      "sha256": "EAA069DA83C1A55839C68A84E3689BF4C5F30E6097299E99BCA8C70B86824BA5",
+      "bytes": 13159,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/gpuprojectionpass.cpp",
+      "sha256": "B95217AA9E6C81B3F59CA992298C35D51A4992187943DCF3EE399BE763B7D88C",
+      "bytes": 26452,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/vrsimnative.cpp",
+      "sha256": "73B0235B54D9974CB264FD6BC468A2E811F5548760391E41ED7C9D237A0DB2FF",
+      "bytes": 252027,
+      "set": "installed-0.1.4.0-native",
+      "kind": "source",
+      "originReceiptSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-native/shared-helpers/reference/COPYING",
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643",
+      "bytes": 18092,
+      "set": "third-party-obs-license",
+      "kind": "license",
+      "originReceiptSha256": "",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/HostedCaptureOwner.SharedGPU.cs",
+      "sha256": "8A211E862197173983C87C2BF241B1948BEBA3BC6C32DA348323649265DEC23C",
+      "bytes": 22902,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/EntryCalibration.cs",
+      "sha256": "FD6443FA0EEEBDCDEC2300A2D41BBED52F0DE2FF2C86A9C97155876281458EDC",
+      "bytes": 13055,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/GpuProjection.hlsl",
+      "sha256": "280E1CFBA2568C9461D45C2A502F83835AC33E6EC267644D30A34EFE5F7AFE76",
+      "bytes": 8259,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/Xr/XRDeviceModel.cs",
+      "sha256": "701502D09DCD35B1B0F7F3EF4C91F0DFC89B70D111A33D06B49122E41115B47A",
+      "bytes": 2660,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/Xr/XRDeviceManager.cs",
+      "sha256": "DEAE93F9166E2B76C40BD893E802ADD7C9E89BB8BB75AA0D4D0844CA1772005E",
+      "bytes": 2310,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/Xr/OpenXRRuntimeDiscovery.cs",
+      "sha256": "44B306449D516D8770B36630583B60468EEC7EFF88687C7E43226907FB89C14E",
+      "bytes": 5486,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/Xr/KnownDeviceRegistry.cs",
+      "sha256": "E3E112F19E985C5544A7A7A0CC0BCB50BAE9AD53A5F9315CC29559AF2581E04A",
+      "bytes": 5080,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/Xr/IXRProviders.cs",
+      "sha256": "836FA9A842B41F8EB440CE1A8A9F79FF84FD3A4A864D2EEFAD029AA6AA4A9510",
+      "bytes": 1218,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/Xr/DeviceIdentityResolver.cs",
+      "sha256": "E8476368607C26D246311065CF78CE48E07D9FBFCD61FB6250A9C0CA074711AA",
+      "bytes": 4460,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/VRSIMPlugin.SharedGPU.cs",
+      "sha256": "8402753F754829F78128F41FD13F094A550FA64A790908BE4F4ABDCE12BBE4E0",
+      "bytes": 46676,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/VRSIMPlugin.cs",
+      "sha256": "E7FF6461F80380F084B0A35BB45B721A542958D06CBF804DEA9DF36F681C69E6",
+      "bytes": 157824,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/GpuProjectionPass.cpp",
+      "sha256": "D92AB43B4498248974B366D4AB4855664A3414409EF50AD85DE65BECA33C0AD1",
+      "bytes": 36282,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/VRMonitorWindow.cs",
+      "sha256": "4DC09F26DD210CE93FF51640F5B73ED3731A53DA190834A6B6D955D1C6B788D3",
+      "bytes": 56755,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/TrackingSelfTest.cs",
+      "sha256": "031F65A5B9CC55ACC5256AEFA0199EEA22175CBA17790174E4B48480C1693AEB",
+      "bytes": 24581,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/StereoResampleWorker.cs",
+      "sha256": "E0C4B43AD49AD2E48AA4C53B1ECE5B595D5508E65072D7372EDCDAA72DDC4A6C",
+      "bytes": 12216,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/NativeCaptureOwner.cs",
+      "sha256": "7EF5A96534609EA4B603CDB16696B6C68E91AD1732C3148083D6B95362EA20F7",
+      "bytes": 47636,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/KernelUiPulse.cs",
+      "sha256": "3D48231095F11AEDFE13779499A2D4FBFDD43EB8E950D386C411932DEE5EE49C",
+      "bytes": 33674,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/HostedStagingOwner.NC02XrQA.cs",
+      "sha256": "B6B90D6248AC21355216F60ED28B4C2F55C924B5D88DB122A11C1D892A83F96F",
+      "bytes": 85274,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/HostedCaptureOwner.SharedGPU.cs",
+      "sha256": "34883F233C4FABE8AA1409F9B31C7A021797E426995FA1A20746B0C32AD24F3A",
+      "bytes": 163831,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/HostedCaptureOwner.NC02XrQA.cs",
+      "sha256": "B68F4BF3D85D114863BEAD4CA7833F53E20FD7E0F19AC01F90B75FC6E8BA4E7C",
+      "bytes": 167000,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/EntryCalibration.cs",
+      "sha256": "FD6443FA0EEEBDCDEC2300A2D41BBED52F0DE2FF2C86A9C97155876281458EDC",
+      "bytes": 13055,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/CaptureProfile.cs",
+      "sha256": "5AE9C929928DA859D83AC8D1B54A2AA75C5191CB3280E67541CBD942F69FE2E5",
+      "bytes": 9129,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/managed/VCFrameProducer.cs",
+      "sha256": "C86C6002B1B2381259E4F42060B972A58C29C3E2D9ECA028997544428987CFC4",
+      "bytes": 615654,
+      "set": "current-4k-managed",
+      "kind": "source",
+      "originReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/HostedCaptureOwner.NC02XrQA.cs",
+      "sha256": "D74EF4FEC23980455147FCF67649CA8BAAA5C1201D4A839C45158C1112090FD9",
+      "bytes": 137884,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/GpuProjectionPass.h",
+      "sha256": "44D61B74476544B260CDC740830D671C6BAF0CB9F0E667A3A9314C5CD05C7AD9",
+      "bytes": 14151,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/SharedStereoWire.h",
+      "sha256": "087DF363D22AF05EBC8BD799B73C9C691FF928F0670651A3C28EB43CBCB51422",
+      "bytes": 13856,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/CaptureProfile.cs",
+      "sha256": "8DD19FAC4B5FFE74AE4A0A543B1218FB27E5D463D00080449CC8CB069BD943E2",
+      "bytes": 4921,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "baselines/0.1.4.0/vrsim-plugin/src/CameraSweepController.cs",
+      "sha256": "4FD0729E55AD0B19952C7E985EA8A26D17517ECDBE0B2AC817AB2DC37731EA5E",
+      "bytes": 24690,
+      "set": "installed-0.1.4.0-managed",
+      "kind": "source",
+      "originReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/GpuProjectionPS.inc",
+      "sha256": "BBDCF77EDB0985AB4856C70FFDFF8908D09C4FA9DA4171BF5668AEBDF6A8E480",
+      "bytes": 197845,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/GpuProjectionVS.inc",
+      "sha256": "47E9DD338DC7EE9AA22D250693F86CD67141EB24FA327B7948FA275BD9E03BFD",
+      "bytes": 5016,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/shared-helpers/ObsD3D9SharedColorQA.cpp",
+      "sha256": "F0E50C5AE47746E9C6EAA1C749A2EBC72B1AD22A77B94306E1177E290FE914A1",
+      "bytes": 39279,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/shared-helpers/ObsD3D9LayoutQA.cpp",
+      "sha256": "ECF6DFDB14CE9DF67002A21069B97476150E5E68FCCA1D68B174F331A54BE155",
+      "bytes": 38967,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/shared-helpers/ObsD3D9ActualSourceQA.h",
+      "sha256": "42DDD9DC439B8D5C164F1FF3BD02D7186BCF3C08C1F2E4377FF0B42454BA3BD8",
+      "bytes": 2076,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/shared-helpers/ObsD3D9ActualSourceQA.cpp",
+      "sha256": "8113A2777505769AD802BA8040E8DF10007C11B19AABB7808F2A0E401A468327",
+      "bytes": 61754,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/SharedStereoBridge.h",
+      "sha256": "71363F85FB2BE40651F670A15E75FA1B4D7443D2D07907E9D7ED56F3ECE5A193",
+      "bytes": 41695,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/RuntimeDeviceCapabilities.h",
+      "sha256": "D1A54FECBF47BC01B1F085AB1111F8AD4EC3AF3435B32CAD4006FE503E330D19",
+      "bytes": 5960,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/SharedStereoBridge.cpp",
+      "sha256": "D6A831571D202F2ED8EFFF2F7B6A65CD8866A84141A205E9E8BA5CD559538580",
+      "bytes": 154483,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/vendor/openxr/openxr_platform.h",
+      "sha256": "F17E6D752E0065EDE9F2A4C8932155ACFF96462306A2468A67A6AD77484641D8",
+      "bytes": 35203,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/vendor/openxr/openxr_platform_defines.h",
+      "sha256": "A458BA5777415F2DE518FDCDCC87FCF8651BA0468C9F69A101378672AAD80946",
+      "bytes": 3912,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/references/ObsD3D9SharedColorQA.cpp",
+      "sha256": "0443E8F5F2693D7394D3C1C73485D4008866305049E1BECC7D572BD8CA337984",
+      "bytes": 39464,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/references/ObsD3D9LayoutQA.cpp",
+      "sha256": "ECF6DFDB14CE9DF67002A21069B97476150E5E68FCCA1D68B174F331A54BE155",
+      "bytes": 38967,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/references/ObsD3D9ActualSourceQA.h",
+      "sha256": "42DDD9DC439B8D5C164F1FF3BD02D7186BCF3C08C1F2E4377FF0B42454BA3BD8",
+      "bytes": 2076,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/references/ObsD3D9ActualSourceQA.cpp",
+      "sha256": "6B47ECF3C31EA57025254F3532180F96660B9BDED938BC6D1F0FCB8BA001C835",
+      "bytes": 61939,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/VRSIMNative.h",
+      "sha256": "171AAE73F348C177DD3AE74AF849F599787B22C790C36C2761D575EFE0829D09",
+      "bytes": 8649,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/VRSIMNative.cpp",
+      "sha256": "62E6287231EA3E631F88531D0F8B2C6641C8B10F71CEDFF9691138EAE0420A0D",
+      "bytes": 543399,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/native/SharedWireLayoutCompileQA.cpp",
+      "sha256": "04A8E64F9D7D34F1B00CA8DC128000CC4E21F43974F7A94571A4EFB9AA3F5947",
+      "bytes": 1473,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/vendor/openxr/openxr.h",
+      "sha256": "17E8E334A7AD0C6933B31143330D4771010E393DF5D5D9D08566EB15BB171A15",
+      "bytes": 694129,
+      "set": "current-4k-native",
+      "kind": "source",
+      "originReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+      "byteExactCopy": true
+    },
+    {
+      "path": "src/vendor/openxr/LICENSE.MIT.txt",
+      "sha256": "8F25018489D6FE0DEC34A352314C38DC146247B7DE65735790F4398A92AFA84B",
+      "bytes": 1108,
+      "set": "third-party-openxr-license",
+      "kind": "license",
+      "originReceiptSha256": "",
+      "byteExactCopy": true
+    }
+  ]
+}

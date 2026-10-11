@@ -1,0 +1,17 @@
+bin/
+obj/
+packages/
+runtime/
+local/
+*.dll
+*.exe
+*.lib
+*.pdb
+*.obj
+*.kop
+*.etl
+*.mp4
+*.vcmx
+*.log
+.env
+.env.*

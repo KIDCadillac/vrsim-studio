@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{D2E3F4A5-6B7C-4D8E-9F0A-000000000099}</ProjectGuid>
+    <RootNamespace>VRSIMNative</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Label="UserMacros">
+    <NativeVrRoot>$([MSBuild]::NormalizePath('$(ProjectDir)', '..'))</NativeVrRoot>
+    <FxcPath Condition="'$(FxcPath)' == ''">C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64\fxc.exe</FxcPath>
+    <Shared2048 Condition="'$(Shared2048)' == ''">false</Shared2048>
+  </PropertyGroup>
+  <Target Name="ValidateShared2048Profile" BeforeTargets="PrepareForBuild">
+    <Error Condition="'$(Shared2048)' != 'true' And '$(Shared2048)' != 'false'" Text="Shared2048 must be exactly 'true' or 'false'; got '$(Shared2048)'. It selects the 2048/1536 shared source edge and is passed as /p:Shared2048=true|false." />
+  </Target>
+  <PropertyGroup>
+    <OutDir>$(ProjectDir)bin\</OutDir>
+    <IntDir>$(ProjectDir)obj\</IntDir>
+    <TargetName>VRSIM.Native</TargetName>
+    <GeneratedShaderDir>$(IntDir)generated\</GeneratedShaderDir>
+    <Shared2048Define Condition="'$(Shared2048)' == 'true'">VRSIM_SHARED_2048;</Shared2048Define>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>VRSIM_PRODUCTION_SHARED_HELPERS=1;NOMINMAX;WIN32_LEAN_AND_MEAN;XR_USE_PLATFORM_WIN32;XR_USE_GRAPHICS_API_D3D11;XR_NO_PROTOTYPES;$(Shared2048Define)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(NativeVrRoot)\openxr-probe\vendor;$(GeneratedShaderDir);$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="VRSIMNative.cpp" />
+    <ClCompile Include="GpuProjectionPass.cpp" />
+    <ClCompile Include="SharedStereoBridge.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VRSIMNative.h" />
+    <ClInclude Include="GpuProjectionPass.h" />
+    <ClInclude Include="SharedStereoBridge.h" />
+    <ClInclude Include="SharedStereoWire.h" />
+    <ClInclude Include="shared-helpers\ObsD3D9ActualSourceQA.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GpuProjection.hlsl" />
+    <None Include="shared-helpers\ObsD3D9LayoutQA.cpp" />
+    <None Include="shared-helpers\ObsD3D9SharedColorQA.cpp" />
+    <None Include="shared-helpers\ObsD3D9ActualSourceQA.cpp" />
+  </ItemGroup>
+  <Target Name="CompileGpuProjectionShaders" BeforeTargets="ClCompile"
+          Inputs="$(ProjectDir)GpuProjection.hlsl"
+          Outputs="$(GeneratedShaderDir)GpuProjectionVS.inc;$(GeneratedShaderDir)GpuProjectionPS.inc">
+    <MakeDir Directories="$(GeneratedShaderDir)" />
+    <Error Condition="!Exists('$(FxcPath)')" Text="fxc.exe not found at '$(FxcPath)'. Override the FxcPath property with the Windows SDK 10.0.26100.0 x64 fxc.exe path; runtime D3DCompile and stale generated headers are not allowed." />
+    <Exec Command="&quot;$(FxcPath)&quot; /nologo /T vs_5_0 /E VSMain /Fh &quot;$(GeneratedShaderDir)GpuProjectionVS.inc&quot; /Vn g_gpuProjectionVS &quot;$(ProjectDir)GpuProjection.hlsl&quot;" />
+    <Exec Command="&quot;$(FxcPath)&quot; /nologo /T ps_5_0 /E PSMain /Fh &quot;$(GeneratedShaderDir)GpuProjectionPS.inc&quot; /Vn g_gpuProjectionPS &quot;$(ProjectDir)GpuProjection.hlsl&quot;" />
+  </Target>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

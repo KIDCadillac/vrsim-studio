@@ -1,0 +1,297 @@
+{
+  "schema": "VRSIM_ARCHIVED_BUILD_SUMMARY_V1",
+  "archiveOnly": true,
+  "portableBuildValidated": false,
+  "compilerExecutedByExport": false,
+  "managed": {
+    "sourceCount": 20,
+    "referenceCount": 14,
+    "references": [
+      {
+        "name": "System.Runtime.dll",
+        "sha256": "04940F5A1EFD33F57C491A797FD67C4158AA22B0147ED1A4A4C602FA1D60F580",
+        "bytes": 28720
+      },
+      {
+        "name": "mscorlib.dll",
+        "sha256": "6B35530467B914B0B195146CA1D1485DDD219AFAAD6461103F16F54E952F75A9",
+        "bytes": 2731056
+      },
+      {
+        "name": "PresentationCore.dll",
+        "sha256": "7C6CF727EE790F6625537BD607D0D755DB3510CFC7D83C3630BA375EB83555E3",
+        "bytes": 1381936
+      },
+      {
+        "name": "PresentationFramework.dll",
+        "sha256": "A1958E008541E47ECA7828DC59D8EA60528EC235DB4FDAF5222C494DF1E318E2",
+        "bytes": 2098224
+      },
+      {
+        "name": "System.ComponentModel.Composition.dll",
+        "sha256": "C5D5866753A2C01DBC1B1BCF5CE1F64E695576886E6ABCDC7344E2C996C36E66",
+        "bytes": 110640
+      },
+      {
+        "name": "System.Core.dll",
+        "sha256": "94A1FC97EB0D36F13ACD209BB7207DA504C8BE10CAF7E5096B2C46E671DC6FE2",
+        "bytes": 256560
+      },
+      {
+        "name": "System.dll",
+        "sha256": "2FE343569F794F2CA92EE14A41875571A9F21BF92637B8F8EE86306534209CCA",
+        "bytes": 1477168
+      },
+      {
+        "name": "System.Web.Extensions.dll",
+        "sha256": "7512218C4A6A83DE0CDBB8A25240B8B5EE542F93FF9B31ACFBF9F7399394450E",
+        "bytes": 1393712
+      },
+      {
+        "name": "System.Xaml.dll",
+        "sha256": "F88A02DCC1DC1037884032624F3AB092AA5A3E85D215598D7D13AD7DDC814D81",
+        "bytes": 111152
+      },
+      {
+        "name": "WindowsBase.dll",
+        "sha256": "99591F58A3B54D5E38C9CA85AC2488780161DA511748005C542EE7DB03857081",
+        "bytes": 671280
+      },
+      {
+        "name": "Caliburn.Micro.dll",
+        "sha256": "A80E12EAA90BD6822BDE344B2EF41B51570B58C642B7ABE1A56616C6E60F6370",
+        "bytes": 133536
+      },
+      {
+        "name": "Create3D.Shared.dll",
+        "sha256": "71B5B7D95609588B593EBEF63A8F5B0121F394C5D008C557D7AB811AC8CB950B",
+        "bytes": 1336736
+      },
+      {
+        "name": "UX.Shared.dll",
+        "sha256": "AA8DA7C7518B999D10C1609B718E153FB74698A9F45949DE653A51B93FEE7A7E",
+        "bytes": 6903712
+      },
+      {
+        "name": "UX.Shared.Infrastructure.dll",
+        "sha256": "F79CD7D0590C4EA2D971B1C17AC61291AB8F5421F51EB25CE48070A089BF1007",
+        "bytes": 1195936
+      }
+    ],
+    "compiler": {
+      "name": "csc.exe",
+      "sha256": "2DCDDD56AE586466B687AF78C1CC70FC2D8109971F777B44387FBCB626E6CB27"
+    },
+    "variants": [
+      {
+        "name": "DEFAULT",
+        "expectedReject": false,
+        "actualExitCode": 0,
+        "defines": [
+          "VRSIM_SHARED_3072"
+        ],
+        "flags": [
+          "/nologo",
+          "/target:library",
+          "/platform:x64",
+          "/deterministic",
+          "/nostdlib+",
+          "/optimize+",
+          "/unsafe",
+          "/langversion:7.3"
+        ]
+      },
+      {
+        "name": "QA_OFF",
+        "expectedReject": false,
+        "actualExitCode": 0,
+        "defines": [
+          "VRSIM_NATIVE_QA,NC02_XR_QA,VRSIM_SHARED_3072,VRSIM_SOURCE_4096_QA,VRSIM_QA_MIXED_SOURCE"
+        ],
+        "flags": [
+          "/nologo",
+          "/target:library",
+          "/platform:x64",
+          "/deterministic",
+          "/nostdlib+",
+          "/optimize+",
+          "/unsafe",
+          "/langversion:7.3"
+        ]
+      },
+      {
+        "name": "QA_ON",
+        "expectedReject": false,
+        "actualExitCode": 0,
+        "defines": [
+          "VRSIM_NATIVE_QA,NC02_XR_QA,VRSIM_SHARED_3072,VRSIM_SOURCE_4096_QA,VRSIM_QA_MIXED_SOURCE,VRSIM_QA_D9_BEGIN_POLL"
+        ],
+        "flags": [
+          "/nologo",
+          "/target:library",
+          "/platform:x64",
+          "/deterministic",
+          "/nostdlib+",
+          "/optimize+",
+          "/unsafe",
+          "/langversion:7.3"
+        ]
+      },
+      {
+        "name": "QA_OUTPUT4096",
+        "expectedReject": false,
+        "actualExitCode": 0,
+        "defines": [
+          "VRSIM_NATIVE_QA,NC02_XR_QA,VRSIM_SHARED_3072,VRSIM_SOURCE_4096_QA,VRSIM_QA_MIXED_SOURCE,VRSIM_QA_D9_BEGIN_POLL,VRSIM_QA_OUTPUT_4096"
+        ],
+        "flags": [
+          "/nologo",
+          "/target:library",
+          "/platform:x64",
+          "/deterministic",
+          "/nostdlib+",
+          "/optimize+",
+          "/unsafe",
+          "/langversion:7.3"
+        ]
+      },
+      {
+        "name": "PHASE_ON",
+        "expectedReject": false,
+        "actualExitCode": 0,
+        "defines": [
+          "VRSIM_NATIVE_QA,NC02_XR_QA,VRSIM_SHARED_3072,VRSIM_SOURCE_4096_QA,VRSIM_QA_MIXED_SOURCE,VRSIM_QA_D9_BEGIN_POLL,VRSIM_QA_OUTPUT_4096,VRSIM_QA_OWNER_PHASE_CPU_WALL"
+        ],
+        "flags": [
+          "/nologo",
+          "/target:library",
+          "/platform:x64",
+          "/deterministic",
+          "/nostdlib+",
+          "/optimize+",
+          "/unsafe",
+          "/langversion:7.3"
+        ]
+      },
+      {
+        "name": "PHASE_BAD_NO_OUTPUT",
+        "expectedReject": true,
+        "actualExitCode": 1,
+        "defines": [
+          "VRSIM_NATIVE_QA,NC02_XR_QA,VRSIM_SHARED_3072,VRSIM_SOURCE_4096_QA,VRSIM_QA_MIXED_SOURCE,VRSIM_QA_D9_BEGIN_POLL,VRSIM_QA_OWNER_PHASE_CPU_WALL"
+        ],
+        "flags": [
+          "/nologo",
+          "/target:library",
+          "/platform:x64",
+          "/deterministic",
+          "/nostdlib+",
+          "/optimize+",
+          "/unsafe",
+          "/langversion:7.3"
+        ]
+      },
+      {
+        "name": "PHASE_BAD_NO_POLL",
+        "expectedReject": true,
+        "actualExitCode": 1,
+        "defines": [
+          "VRSIM_NATIVE_QA,NC02_XR_QA,VRSIM_SHARED_3072,VRSIM_SOURCE_4096_QA,VRSIM_QA_MIXED_SOURCE,VRSIM_QA_OUTPUT_4096,VRSIM_QA_OWNER_PHASE_CPU_WALL"
+        ],
+        "flags": [
+          "/nologo",
+          "/target:library",
+          "/platform:x64",
+          "/deterministic",
+          "/nostdlib+",
+          "/optimize+",
+          "/unsafe",
+          "/langversion:7.3"
+        ]
+      }
+    ],
+    "actualReceiptSha256": "04EC332DF4C24BB178A064592386784B6CE3FBA98976E7CDA967C430AA38EC98",
+    "artifact": {
+      "name": "UX.VRSIM.Sim.Plugin.SharedGPU.dll",
+      "sha256": "C2CE02D2DD21C1BAF2559A7958953DFAE00B751553CF789B50794FA294F79D67",
+      "bytes": 512000
+    }
+  },
+  "native": {
+    "sourceCount": 23,
+    "tools": [
+      {
+        "name": "cl.exe",
+        "sha256": "7A154E5136CC538B42E6944997FC5E3BB49112894E41DD88A70940AAFF9AA831",
+        "bytes": 677736
+      },
+      {
+        "name": "link.exe",
+        "sha256": "359B5861060B8B8899A1EF87385A37B32D8ECB8A81D092866907E7249AB962BE",
+        "bytes": 3252576
+      },
+      {
+        "name": "c1xx.dll",
+        "sha256": "81445BEAC37DC619F9847502AB9AB55E1483E16DB9FFB513DBB3CA86BD4C754D",
+        "bytes": 12333920
+      },
+      {
+        "name": "c2.dll",
+        "sha256": "F9BA51DC69D238D8BDBB087BD6E90CB5A683D9FC6E2DD7A0D1BE9CC03310F7A9",
+        "bytes": 10462008
+      },
+      {
+        "name": "mspdb140.dll",
+        "sha256": "940C87C2F41CC0B392C9AAE9A06B693AD944C87D8B3B66300C755EC4BBE2446D",
+        "bytes": 345912
+      },
+      {
+        "name": "dumpbin.exe",
+        "sha256": "B8CBC17571A9E86EF2923779DED7F7C5812A169B43C744ADE62E2E27627E5002",
+        "bytes": 23376
+      }
+    ],
+    "variants": [
+      {
+        "name": "DEFAULT",
+        "dllSha256": "FD06E15D1DCFE08492CC7E2F1685F5A22FFF1CBF2EA7302D2283B53269BB6D94",
+        "dllBytes": 393728
+      },
+      {
+        "name": "ORIGINAL_ON",
+        "dllSha256": "7A7212109F4F4C3399B32F60A7893AEFC1005E9F07AE655FA336934DD2D01F6A",
+        "dllBytes": 461824
+      },
+      {
+        "name": "D9_TIMING_ON",
+        "dllSha256": "02B520F7AC08B75A7AE10EDD36FC5AA62BBBCF7FABB2B52389A44F5222195940",
+        "dllBytes": 485376
+      },
+      {
+        "name": "QA_OUTPUT4096",
+        "dllSha256": "1E60BBB092BC8A38072428B814E4C5C7A89132352FE26DDB426539831535418D",
+        "dllBytes": 519680
+      }
+    ],
+    "originalShaderPsIncludeSha256": "BBDCF77EDB0985AB4856C70FFDFF8908D09C4FA9DA4171BF5668AEBDF6A8E480",
+    "shaderCompilerExecuted": false,
+    "actualReceiptSha256": "35C16A137D9FE0F0CA494004397A8DC6E922306D69ACBE9DB48FFCB94993B804",
+    "artifact": {
+      "name": "VRSIM.Native.SharedWire.QA.dll",
+      "sha256": "1E60BBB092BC8A38072428B814E4C5C7A89132352FE26DDB426539831535418D",
+      "bytes": 519680
+    },
+    "compileFlags": [
+      "/MD",
+      "/O2",
+      "/EHsc",
+      "/std:c++17",
+      "/utf-8",
+      "/W4",
+      "/fp:strict",
+      "/DNOMINMAX"
+    ],
+    "msvcVersion": "14.44.35207",
+    "windowsSdkVersion": "10.0.22621.0"
+  }
+}

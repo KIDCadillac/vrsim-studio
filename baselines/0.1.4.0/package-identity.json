@@ -1,0 +1,38 @@
+{
+  "schema": "VRSIM_INSTALLED_PACKAGE_IDENTITY_V1",
+  "version": "0.1.4.0",
+  "kop": {
+    "name": "VRSIM.Sim-0.1.4.0.kop",
+    "sha256": "B3F4BA0FF20A864169A8DE67B350E2063C5D135CB0C2D57F3675F38A6113FA1A",
+    "bytes": 931263,
+    "payloadFileCount": 24
+  },
+  "compiledArtifacts": [
+    {
+      "name": "UX.VRSIM.Sim.Plugin.dll",
+      "sha256": "BBD361F380959853B4CA5654D5016C159B1359CD91B86811E7D42C2836CFC04E",
+      "bytes": 419328
+    },
+    {
+      "name": "VRSIM.Native.dll",
+      "sha256": "1BD082B12E0579334293E44EB2F4C75E4D7358E54C61971E4B73FE07B346F0FA",
+      "bytes": 257024
+    },
+    {
+      "name": "NC01.Readback.dll",
+      "sha256": "A5103B833F57994FC89E5C6DE9CFE8246FD73A1E8DA8984A9CF1D2FF878B249B",
+      "bytes": 12800
+    },
+    {
+      "name": "NC02.PairStage.dll",
+      "sha256": "19467420EF58D71DFE054CA924B5F0364DDB229FCF230DB13C7E4093661A6AC1",
+      "bytes": 26624
+    }
+  ],
+  "payloadFileCount": 24,
+  "binaryPayloadPublished": false,
+  "officialTemplateAssetsPublished": false,
+  "sourceManagedReceiptSha256": "43469EF52BE7F5E111DAB49E77056118606BB411F4757956CBACB36954DB723A",
+  "sourceNativeManifestSha256": "B3C3055368C97141DEC911C7BBF4E8E97F8D95B54A0A2B542A0D752BA8BE0A9B",
+  "current4kIsThisInstalledPackage": false
+}
